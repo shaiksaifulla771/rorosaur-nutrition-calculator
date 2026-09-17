@@ -1,0 +1,209 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788261215689,
+      "tag": "0000_nutrisafe_core_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788261244758,
+      "tag": "0001_avatar_storage_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788419709403,
+      "tag": "0002_open_access_master_items_projects",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788423376607,
+      "tag": "0003_rda_settings_and_yield",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788429206087,
+      "tag": "0004_rorosaur_pins_sources_seed_catalog",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788432993580,
+      "tag": "0005_per_user_isolation_rda_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788437363885,
+      "tag": "0006_isolation_indexes_audit_retention",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788440496503,
+      "tag": "0007_shared_workspace_no_auth",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788601197000,
+      "tag": "0008_default_project_and_guards",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788850574475,
+      "tag": "0009_unique_default_project",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788850903576,
+      "tag": "0010_recipe_version_yield_fields",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788855729352,
+      "tag": "0011_master_item_pins",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788937029652,
+      "tag": "0012_restore_workspace_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788939191979,
+      "tag": "0013_auth_profiles_rbac_audit",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788941548485,
+      "tag": "0014_ensure_access_role",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788949876683,
+      "tag": "0015_audit_skip_noise_updates",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1789014332658,
+      "tag": "0016_global_profile_cap",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1789014358398,
+      "tag": "0017_profile_count_fn",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1789020082984,
+      "tag": "0018_shared_workspace_profiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1789025025393,
+      "tag": "0019_simplify_recipe_delete_cascade",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1789109514862,
+      "tag": "0020_email_password_auth_profiles_and_admin_deletes",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1789110236883,
+      "tag": "0021_harden_email_auth_and_retire_shared_profiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1789127931602,
+      "tag": "0022_otp_device_verification_and_ingredient_quantity",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1789409375898,
+      "tag": "0023_harden_audit_inserts_and_definer_execute",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1789410017913,
+      "tag": "0024_add_third_bootstrap_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1789412214365,
+      "tag": "0025_account_has_password_check",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1789458809499,
+      "tag": "0026_create_otp_codes",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1789464923598,
+      "tag": "0027_update_admin_allowlist",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1789466986163,
+      "tag": "0028_fix_ensure_access_role_volatile",
+      "breakpoints": true
+    }
+  ]
+}
