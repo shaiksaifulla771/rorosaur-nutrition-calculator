@@ -36,6 +36,11 @@ dist-ssr
 .env.*
 !.env.example
 
+# Generated at build time by scripts/generate-runtime-env.mjs — this file
+# is written fresh on every AWS Amplify build and must never be committed
+# with real Supabase key values in it.
+src/integrations/supabase/runtime-env.generated.ts
+
 # Internal Lovable AI planning/chat notes and security audit — kept private,
 # not published to the public repository
 .lovable/

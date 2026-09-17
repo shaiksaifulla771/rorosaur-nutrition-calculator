@@ -11,6 +11,7 @@ frontend:
     build:
       commands:
         - export PATH="$HOME/.bun/bin:$PATH"
+        - node scripts/generate-runtime-env.mjs
         - bun run build
 
   artifacts:
