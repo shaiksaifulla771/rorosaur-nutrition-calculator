@@ -5,6 +5,7 @@
 import { createClient } from "@supabase/supabase-js";
 import type { Database } from "./types";
 import { RUNTIME_ENV } from "./runtime-env.generated";
+import { getSafeRealtimeTransport } from "./safe-realtime-transport";
 
 function isNewSupabaseApiKey(value: string): boolean {
   return value.startsWith("sb_publishable_") || value.startsWith("sb_secret_");
@@ -56,6 +57,9 @@ function createSupabaseAdminClient() {
       storage: undefined,
       persistSession: false,
       autoRefreshToken: false,
+    },
+    realtime: {
+      transport: getSafeRealtimeTransport(),
     },
   });
 }

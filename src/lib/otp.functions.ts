@@ -73,9 +73,13 @@ async function findUserByEmail(admin: AdminClient, email: string) {
  */
 async function ephemeralClient() {
   const { createClient } = await import("@supabase/supabase-js");
+  const { getSafeRealtimeTransport } = await import(
+    "@/integrations/supabase/safe-realtime-transport"
+  );
   const key = process.env["SUPABASE_PUBLISHABLE_KEY"]!;
   return createClient(process.env["SUPABASE_URL"]!, key, {
     auth: { persistSession: false, autoRefreshToken: false },
+    realtime: { transport: getSafeRealtimeTransport() },
     global: {
       fetch: (input, init) => {
         const headers = new Headers(init?.headers);
