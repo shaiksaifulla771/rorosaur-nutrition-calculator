@@ -12,4 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Deploying to AWS Amplify Hosting now (previously Cloudflare via Lovable Cloud).
+  // Overrides the default "cloudflare-module" preset with Nitro's built-in
+  // "aws-amplify" preset, which outputs to .amplify-hosting/ as amplify.yml expects.
+  nitro: {
+    preset: "aws-amplify",
+  },
 });
